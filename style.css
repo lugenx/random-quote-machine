@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap");
+
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#quote-box {
+  position: relative;
+  border-radius: 5px;
+  width: 50%;
+  background-color: white;
+  margin: 10% auto 10% auto;
+  padding: 5px 5px;
+  opacity: 75%;
+}
+
+#text {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25em;
+  margin: 5%;
+}
+
+#author {
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  margin: 5%;
+}
+
+#new-quote {
+  margin: 5%;
+}
+
+#tweet-quote {
+  text-decoration: none;
+  float: right;
+  margin: 5%;
+  color: black;
+}
