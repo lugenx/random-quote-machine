@@ -1,4 +1,3 @@
-[[redirects]]
-  from = "/config.js"
-  to = "/api-key.html"
-  status = 200
+[build]
+  command = "sed 's/__API_KEY__/${API_KEY}/g' api-key.js > config.js"
+
