@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/config.js"
+  to = "/api-key.html"
+  status = 200
