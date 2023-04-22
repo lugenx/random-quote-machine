@@ -1,4 +1,3 @@
-dotenv.config();
 function setRandomColor() {
   const colors = [
     "#1abc9c",
@@ -34,7 +33,7 @@ function getRandomQuote() {
     method: "GET",
     headers: {
       "X-RapidAPI-Host": "quotes15.p.rapidapi.com",
-      "X-RapidAPI-Key": process.env.API_KEY,
+      "X-RapidAPI-Key": config.API_KEY,
     },
   };
 
